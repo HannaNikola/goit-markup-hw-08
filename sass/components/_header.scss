@@ -1,0 +1,141 @@
+.page-header {
+    background-color: var(--color-wite-transporet);
+    border-bottom: 1px solid #ECECEC;
+}
+
+/* логотип */
+.logo_header {
+    color: var(--accent-text);
+    @include font(700, 26px, 1.19, 0.03em);
+    
+
+    margin-right: 93px;
+        padding-top: 24px;
+        padding-bottom: 25px;
+        display: block;
+        font-family: 'Raleway', sans-serif;
+        text-decoration: none;
+
+        &--accent {
+        color: var(--title-text-color);
+    }
+}
+
+
+/* main naw */
+.naw-link {
+    display: flex;
+    align-items: center;
+}
+
+/* навигация  */
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
+.navigation_list {
+    display: flex;
+
+    & .navigation_item {
+            margin-right: 50px;
+        }
+}
+
+
+.navigation_list .navigation_item:last-child {
+    margin-right: 0;
+}
+
+.navigation_list .navigation_link {
+@include font(500, 14px, 1.2, 0.02em);
+
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    color: var( --primary-text-color);
+    text-decoration: none;
+
+         &:hover,
+        &:focus {
+            color: var(--accent-text);
+        }
+
+}
+
+
+
+.navigation_link--current {
+    color: var(--accent-text);
+    position: relative;
+    display: block;
+
+    &::after {
+    
+            content: "";
+            color: var(--accent-text);
+            position: absolute;
+            display: block;
+            width: 100%;
+            height: 4px;
+            background-color: var(--accent-text);
+            border-radius: 2px;
+            left: 0;
+            bottom: -1px;
+        }
+}
+
+
+
+
+/* contact-nav */
+.contact_icon {
+    margin-right: 10px;
+    fill: currentColor;
+}
+
+.contact_item {
+    display: flex;
+    align-items: center;
+}
+
+.contact_nav {
+    display: flex;
+    margin-left: auto;
+
+        &.contact_item:hover,
+        & .contact_item:focus {
+            color: var(--accent-text);
+        }
+}
+
+.contact_list:first-of-type {
+    margin-right: 50px;
+}
+
+.contact_list:hover svg,
+.contact_list:focus svg {
+    fill: var(--accent-text);
+}
+
+.contact_list .contact_item {
+    display: flex;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin-right: 0;
+
+    @include font(500, 14px, 1.2, 0.02em);
+    color: var(--primary-text-color);
+    text-decoration: none;
+
+}
+
+.contact_nav .contact_item:hover,
+.contact_nav .contact_item:focus {
+    color: var(--accent-text);
+}
+
+.contact_nav .contact_item.current {
+    color: var(--accent-text);
+}

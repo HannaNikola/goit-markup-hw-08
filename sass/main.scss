@@ -1,0 +1,17 @@
+// utilits
+@import "./utils/variables";
+@import "./utils/body";
+@import "./utils/mixin.scss";
+ 
+// main
+@import "./components/header";
+@import "./components/hero" ;
+@import "./components/aboutsection" ;
+@import "./components/aboutproject" ;
+@import "./components/employeslist" ;
+@import "./components/ourclients" ;
+@import "./components/footer" ;
+@import "./components/portfolio" ;
+
+// modal 
+@import "../sass/modalwindow/modalwindow";

@@ -276,6 +276,7 @@ a {
 }
 
 .section-about {
+  width: 480px;
   padding-top: 60px;
   padding-bottom: 60px;
   margin: 0 auto;
@@ -342,6 +343,7 @@ a {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
+  margin-bottom: 30px;
 }
 @media screen and (min-width: 1200px) {
   .feature .text-feature {
@@ -582,13 +584,22 @@ a {
 
 .logo_foot {
   display: inline-block;
+  text-align: center;
   font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
+  font-size: 24px;
+  line-height: 1.16;
   letter-spacing: 0.03em;
   color: var(--accent-text);
   font-family: Raleway, sans-serif;
   margin-bottom: 20px;
+}
+@media screen and (min-width: 1200px) {
+  .logo_foot {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+  }
 }
 .logo_foot--accent {
   color: var(--white-color);

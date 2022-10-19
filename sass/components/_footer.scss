@@ -12,11 +12,16 @@
 
 .logo_foot {
     display: inline-block;
+    text-align: center;
 
-    @include font(700, 26px, 1.19, 0.03em);
+    @include font(700, 24px, 1.16, 0.03em);
     color: var(--accent-text);
     font-family: Raleway, sans-serif;
     margin-bottom: 20px;
+
+    @media screen and (min-width: 1200px){
+    @include font(700, 26px, 1.19, 0.03em)
+    }
 
         &--accent {
             color: var(--white-color);
@@ -60,12 +65,13 @@
 
 /* social network */
 .social_footer {
+   
     margin-left: 70px;
 }
 
 .social_title {
-    display: inline-block;
-    margin-bottom: 20px;
+     display: inline-block;
+     margin-bottom: 20px;
 
     @include font(700, 14px, 1.14, 0.03em);
 
@@ -75,7 +81,7 @@
 }
 
 .social {
-    display: flex;
+     display: flex;
     gap: 10px;
 
     &_icon {
@@ -85,9 +91,9 @@
 }
 
 .social_link{
-    justify-content: center;
-    display: flex;
-    align-items: center;
+     justify-content: center;
+     display: flex;
+     align-items: center;
 
     width: 44px;
     height: 44px;
@@ -105,12 +111,12 @@
 
 /* mailing footer */
 .mailing_list {
-    align-items: baseline;
+     align-items: baseline;
     margin-left: 93px;
 }
 
 .mailing_title {
-    display: inline-block;
+     display: inline-block;
 
     @include font(700, 14px, 1.1, 00.03em);
 
@@ -121,7 +127,7 @@
 
 }
 .mailing_link {
-    display: flex;
+     display: flex;
 
     & input:hover,
     & input:focus {
@@ -135,7 +141,7 @@
 }
 
 .mailing_form {
-    display: flex;
+     display: flex;
 }
 
 .mailing_link input {

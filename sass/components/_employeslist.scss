@@ -1,8 +1,16 @@
 /* employee list */
 .section-employees {
-    padding-top: 94px;
-    padding-bottom: 94px;
+    width: 480px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     background-color: var(--background-second-color);
+
+    @media screen and (min-width: 1200px) {
+        width:1200px ;
+            padding-top: 94px;
+            padding-bottom: 94px;
+    
+        }
 }
 
 .employees {

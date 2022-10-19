@@ -3,9 +3,14 @@
 
 .section-about {
     width: 480px;
+    padding-left: 15px;
+    padding-right: 15px;
     padding-top: 60px;
     padding-bottom: 60px;
     margin: 0 auto;
+    @media screen and (min-width: 768px) {
+        width: 768px;
+    }
 
     @media screen and (min-width: 1200px){
         width: 1200px;
@@ -22,6 +27,12 @@
     background-color: #F5F4FA;
     margin-bottom: 30px;
     padding: 25px 190px;
+    width: 450px;
+
+    @media screen and (min-width: 768px) {
+        width: 354px;
+        padding: 25px 142px;
+    }
     
 
 @media screen and (min-width: 1200px) {
@@ -50,7 +61,12 @@
         color: var(--title-text-color);
         text-align: center;
         text-transform: uppercase;
-        margin-bottom: 10px; }
+        margin-bottom: 10px;
+
+    @media screen and (min-width: 1200px){
+        text-align: right;
+    }
+    }
         
         
 

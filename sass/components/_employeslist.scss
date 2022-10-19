@@ -3,10 +3,17 @@
     width: 480px;
     padding-top: 60px;
     padding-bottom: 60px;
+    padding-left: 15px;
+    padding-right: 15px;
     background-color: var(--background-second-color);
 
+    @media screen and (min-width: 768px){
+        width: 768px;
+
+    }
+
     @media screen and (min-width: 1200px) {
-        width:1200px ;
+        width: 1200px;
             padding-top: 94px;
             padding-bottom: 94px;
     
@@ -14,9 +21,9 @@
 }
 
 .employees {
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: -30px;
+     display: flex;
+     flex-wrap: wrap;
+     margin-right: -30px;
 
 }
 
@@ -29,7 +36,19 @@
         
 }
 
+.item-employees{
+    width: 450px;
+    
 
+    @media screen and (min-width: 768px) {
+        width: 354px;
+    
+    }
+
+    @media screen and (min-width: 1200px){
+        width: 270px;
+    }
+}
 
 .employees .coworcer {
     @include font(500, 16px, 1.2, 0.03em);

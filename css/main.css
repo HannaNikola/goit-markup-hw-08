@@ -277,9 +277,16 @@ a {
 
 .section-about {
   width: 480px;
+  padding-left: 15px;
+  padding-right: 15px;
   padding-top: 60px;
   padding-bottom: 60px;
   margin: 0 auto;
+}
+@media screen and (min-width: 768px) {
+  .section-about {
+    width: 768px;
+  }
 }
 @media screen and (min-width: 1200px) {
   .section-about {
@@ -303,6 +310,13 @@ a {
   background-color: #F5F4FA;
   margin-bottom: 30px;
   padding: 25px 190px;
+  width: 450px;
+}
+@media screen and (min-width: 768px) {
+  .feauter-icon {
+    width: 354px;
+    padding: 25px 142px;
+  }
 }
 @media screen and (min-width: 1200px) {
   .feauter-icon {
@@ -339,6 +353,11 @@ a {
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 10px;
+}
+@media screen and (min-width: 1200px) {
+  .feature .title {
+    text-align: right;
+  }
 }
 .feature .text-feature {
   font-weight: 400;
@@ -427,7 +446,14 @@ a {
   width: 480px;
   padding-top: 60px;
   padding-bottom: 60px;
+  padding-left: 15px;
+  padding-right: 15px;
   background-color: var(--background-second-color);
+}
+@media screen and (min-width: 768px) {
+  .section-employees {
+    width: 768px;
+  }
 }
 @media screen and (min-width: 1200px) {
   .section-employees {
@@ -454,6 +480,20 @@ a {
   text-align: center;
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.item-employees {
+  width: 450px;
+}
+@media screen and (min-width: 768px) {
+  .item-employees {
+    width: 354px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .item-employees {
+    width: 270px;
+  }
 }
 
 .employees .coworcer {

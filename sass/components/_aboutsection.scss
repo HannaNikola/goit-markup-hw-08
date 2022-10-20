@@ -1,5 +1,5 @@
 
-
+// about section
 
 .section-about {
     width: 480px;
@@ -7,7 +7,7 @@
     padding-right: 15px;
     padding-top: 60px;
     padding-bottom: 60px;
-    margin: 0 auto;
+    
     
     @media screen and (min-width: 768px) {
         width: 768px;
@@ -29,6 +29,7 @@
     margin-bottom: 30px;
     padding: 25px 190px;
     width: 450px;
+    
 
     @media screen and (min-width: 768px) {
         width: 354px;
@@ -44,16 +45,24 @@
 }
 
 .section .section-title {
-@include font(700, 36px, 1.2, 0.03em);
+@include font(700, 28px, 1.7, 0.03em);
 
     color: var(--title-text-color);
     text-align: center;
-    margin-bottom: 50px;}
+    margin-bottom: 30px;
+
+  @media screen and (min-width: 1200px){
+    margin-bottom: 50px;
+
+  @include font(700, 36px, 1.2, 0.03em)}
+ 
+}
 
 .feature {
-    @media screen and (min-width: 1200px){
-        display: flex;
-        flex-wrap: wrap;
+    @media screen and (min-width: 768px){
+         display: flex;
+         flex-wrap: wrap;
+         gap: 30px;
     }
 
 
@@ -64,20 +73,22 @@
         text-transform: uppercase;
         margin-bottom: 10px;
 
-    @media screen and (min-width: 1200px){
-        text-align: right;
+    @media screen and (min-width: 768px) {
+        text-align: left;
     }
     }
         
         
-
-
-
-                & .text-feature {
+                 & .text-feature {
                     font-weight: 400;
                     font-size: 14px;
                     line-height: 1.7;
                     margin-bottom: 30px;
+
+                    @media screen and (min-width: 768px){
+                        width: 354px;
+                        display: block;
+                    }
                     
                     @media screen and (min-width: 1200px) {
                         width: 270px;
@@ -89,11 +100,15 @@
     
 }
 
-feauter-item {
-@media screen and (min-width: 1200px){
-flex-basis: calc(100% / 4 - 30px);
-margin-left: 30px;
-}
+.feauter-item {
+    @media screen and (min-width: 768px) {
+    flex-basis: calc(100% / 2 - 30px);
+    gap: 30px;
+    }
+    @media screen and (min-width: 1200px){
+    flex-basis: calc(100% / 4 - 30px);
+    
+    }
 
  }
 

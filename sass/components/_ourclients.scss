@@ -1,19 +1,43 @@
 .section-clients {
+    width: 480px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    @media screen and (min-width: 1200px){
     padding-top: 94px;
     padding-bottom: 94px;
+    }
 }
 
 .clients {
+    
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 30px;
 
     &_item {
-     width: 170px;
-    height: 92px;
+        width: 210px;
+        height: 92px;
+
+        @media screen and (min-width: 768px){
+              width: 226px;
+              height: 92px;
+              flex-basis: calc(100% / 3 - 30px);
+                
+            
         }
+
+        @media screen and (min-width: 1200px){
+        width: 170px;
+        height: 92px;
+        
+        }
+    }
 }
+
 
 .clients_icon {
     fill: var(--background-icon);
@@ -28,6 +52,7 @@
     justify-content: center;
     border: 1px solid var(--background-icon);
     border-radius: 4px;
+
 
     &:hover .clients_icon,
     &:focus .clients_icon {

@@ -35,6 +35,26 @@
               <li class="navigation_item"><a href="#" class="navigation_link">Контакти</a></li>
             </ul>
           </nav>
+          <div class="mob-menu ">
+<div class="menu-container js-menu-container" id="mobile-menu">
+  <button class="menu-toggle js-close-menu"></button>
+  <ul class="mobile-menu">
+    <li><a href=""> Студія</a></li>
+    <li><a href=""> Портфоліо</a></li>
+    <li><a href=""> Контакти</a></li>
+    <ul>
+      <li><a class="contact_item" href="tel:+380961111111">+38 096 111 11 11</a></li>
+      <li><a class="contact_item" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+    </ul>
+    <ul>
+      <li><a href="">Instagram</a></li>
+      <li><a href="">Twitter</a></li>
+      <li><a href="">Facebook</a></li>
+      <li><a href="">LinkedIn</a></li>
+    </ul>
+  </ul>
+</div>
+          </div>
           <ul class="contact_nav list">
             <li class="contact_list">
               <a class="contact_item" href="mailto:info@devstudio.com"> <svg  width="16"height="12" class="contact_icon">
@@ -48,8 +68,12 @@
             </li>
           </ul>
         </div>
+        <button type="button" class="menu-toggle js-open-menu" aria-expanded="false"
+          aria-controls="mobile-menu"><svg height="40" width="40" class="icon icon-menu">
+            <use xlink:href="#icon-menu"></use>
+          </svg></button>
       </div>
-    </header>
+   </header>
     <main>
       <!--hero section-->
       <section class="hero">
@@ -393,5 +417,9 @@
         </div>
         </div>
       <script src="./js/modal.js"></script>
+      <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+        integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+        crossorigin="anonymous"></script>
+      <script defer src="js/mobile-menu.js"></script>
   </body>  
 </html>

@@ -1,15 +1,40 @@
 .footer-link {
+    @media screen and (min-width: 768px){
+        //  display: flex;
+        // align-items: baseline;
+    }
+    @media screen and (min-width: 1200px){
     display: flex;
     align-items: baseline;
+    }
+    
 }
 
 .footer {
     background-color: var(--background-footer-color);
+    width: 480px;
     padding-top: 60px;
-    padding-left: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
     padding-bottom: 60px;
-}
 
+    @media screen and (min-width: 768px){
+    width: 768px;
+    }
+         @media screen and (min-width: 1200px){
+        width: 1200px;
+        padding-left: 0px;
+         }
+}
+.conteiner-foot{
+    // @media screen and (min-width: 768px){
+    // display: flex;
+    // align-items: baseline;
+    //  text-align: center;}
+    @media screen and (min-width: 1200px){
+        text-align: left;
+    }
+}
 .logo_foot {
     display: inline-block;
     text-align: center;
@@ -18,7 +43,10 @@
     color: var(--accent-text);
     font-family: Raleway, sans-serif;
     margin-bottom: 20px;
-
+    
+    @media screen and (min-width: 768px){
+        text-align: left;
+    }
     @media screen and (min-width: 1200px){
     @include font(700, 26px, 1.19, 0.03em)
     }
@@ -36,6 +64,7 @@
     font-family: roboto ;
     text-decoration: none;
     font-size: 14px;
+    
     
         &:hover,
         &:focus {
@@ -56,6 +85,7 @@
         text-decoration: none;
         font-size: 14px;
         color: rgba(255, 255, 255, 0.6);
+        text-align: center;
       
         &:hover,
         &:focus {
@@ -65,24 +95,48 @@
 
 /* social network */
 .social_footer {
+    @media screen and (min-width: 768px){
+        // margin-left: 168px;
+    }
+    @media screen and (min-width: 1200px){
+        margin-left: 70px;
+    }
    
-    margin-left: 70px;
+    
 }
 
 .social_title {
-     display: inline-block;
      margin-bottom: 20px;
+     text-align: center;
+     margin-top: 60px;
 
     @include font(700, 14px, 1.14, 0.03em);
 
     font-family: Roboto;
     color: var(--white-color);
     text-transform: uppercase;
+
+    @media screen and (min-width: 768px){
+    display: inline-block;
+    margin-top: 65px;
+    }
+
+    @media screen and (min-width: 1200px){
+    display: inline-block;
+    }
 }
 
 .social {
-     display: flex;
+    display: flex;
     gap: 10px;
+    justify-content: center; 
+    @media screen and (min-width: 768px){
+        justify-content: left;
+    }
+    
+    @media screen and (min-width: 1200px){
+        justify-content: left;
+    }
 
     &_icon {
          display: inline-block;
@@ -111,12 +165,20 @@
 
 /* mailing footer */
 .mailing_list {
-     align-items: baseline;
-    margin-left: 93px;
+    //  align-items: baseline;
+     text-align: center;
+    @media screen and (min-width: 768px){
+        // align-items: baseline;
+    }
+    @media screen and (min-width: 1200px){
+        margin-left: 93px;
+        text-align: left;
+    }
 }
 
 .mailing_title {
-     display: inline-block;
+    text-align: center;
+    margin-top: 60px;
 
     @include font(700, 14px, 1.1, 00.03em);
 
@@ -125,9 +187,15 @@
     color: var(--white-color);
     text-transform: uppercase;
 
+    @media screen and (min-width: 1200px){
+        display: inline-block;
+        text-align: left;
+    }
+
 }
 .mailing_link {
-     display: flex;
+    @media screen and (min-width: 1200px){
+     display: flex;}
 
     & input:hover,
     & input:focus {
@@ -141,7 +209,10 @@
 }
 
 .mailing_form {
-     display: flex;
+    @media screen and (min-width: 1200px){
+    display: flex;
+    }
+    
 }
 
 .mailing_link input {
@@ -151,11 +222,18 @@
     border: 1px solid rgba(255, 255, 255, 0.3);
     margin-right: 12px;
     margin-left: 0;
-    width: 358px;
+    width: 450px;
     height: 50px;
     padding: 10px;
     font-family: robota;
     color: var(--white-color);
+    margin-bottom: 20px;
+
+    @media screen and (min-width: 1200px){
+        width: 358px;
+        
+    }
+    
 
 }
 .footer-btn {
@@ -173,6 +251,12 @@
     position: relative;
     font-family: roboto;
     font-weight: 700;
+
+    @media screen and (min-width: 1200px){
+
+    }
+    
+    
 
         &:hover,
         &:focus {

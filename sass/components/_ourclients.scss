@@ -4,7 +4,11 @@
     padding-right: 15px;
     padding-top: 60px;
     padding-bottom: 60px;
+    @media screen and (min-width: 768px) {
+    width: 768px;
+        }
     @media screen and (min-width: 1200px){
+    width: 1200px;
     padding-top: 94px;
     padding-bottom: 94px;
     }
@@ -16,23 +20,24 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+     gap: 30px;
+
+
 
     &_item {
-        width: 210px;
-        height: 92px;
+       width: 210px;
+       height: 92px;
 
         @media screen and (min-width: 768px){
-              width: 226px;
-              height: 92px;
-              flex-basis: calc(100% / 3 - 30px);
-                
-            
-        }
+             width: 226px;
+             height: 92px;
+             flex-basis: calc(100% / 3 - 30px);
+            }
 
         @media screen and (min-width: 1200px){
         width: 170px;
         height: 92px;
+        
         
         }
     }

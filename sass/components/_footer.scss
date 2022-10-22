@@ -1,37 +1,41 @@
-.footer-link {
-    @media screen and (min-width: 768px){
-        //  display: flex;
-        // align-items: baseline;
-    }
-    @media screen and (min-width: 1200px){
-    display: flex;
-    align-items: baseline;
-    }
-    
-}
 
 .footer {
     background-color: var(--background-footer-color);
     width: 480px;
-    padding-top: 60px;
     padding-left: 15px;
     padding-right: 15px;
-    padding-bottom: 60px;
+     padding-bottom: 60px;
 
     @media screen and (min-width: 768px){
     width: 768px;
     }
          @media screen and (min-width: 1200px){
         width: 1200px;
-        padding-left: 0px;
+        padding-left: 15px;
          }
+}
+.footer-link {
+    padding-top: 60px;
+    @media screen and (min-width: 768px){
+        padding-left: 61px;
+
+    }
+    @media screen and (min-width: 1200px) {
+        padding-top: 0px;
+        display: flex;
+        align-items: baseline;
+        padding-left: 15px;
+    }
+}
+
+.footer-tablet {
+    @media screen and (min-width: 768px) {
+        display: flex;
+        align-items: baseline;
+    }
 }
 .conteiner-foot{
     text-align: center;
-    // @media screen and (min-width: 768px){
-    // display: flex;
-    // align-items: baseline;
-    //  text-align: center;}
     @media screen and (min-width: 1200px){
         text-align: left;
     }
@@ -44,19 +48,17 @@
     color: var(--accent-text);
     font-family: Raleway, sans-serif;
     margin-bottom: 20px;
-    
-    @media screen and (min-width: 768px){
-        text-align: left;
-    }
+
     @media screen and (min-width: 1200px){
+    text-align: left;
     @include font(700, 26px, 1.19, 0.03em)
+     
     }
-
-        &--accent {
-            color: var(--white-color);
-        }
+            
+     &--accent {
+            color: var(--white-color);}
+    
 }
-
 
 .adress .adress_link{
 
@@ -97,7 +99,7 @@
 /* social network */
 .social_footer {
     @media screen and (min-width: 768px){
-        // margin-left: 168px;
+        margin-left: 165px;
     }
     @media screen and (min-width: 1200px){
         margin-left: 70px;
@@ -123,6 +125,7 @@
     }
 
     @media screen and (min-width: 1200px){
+     text-align: left;
     display: inline-block;
     }
 }
@@ -166,10 +169,9 @@
 
 /* mailing footer */
 .mailing_list {
-    //  align-items: baseline;
      text-align: center;
     @media screen and (min-width: 768px){
-        // align-items: baseline;
+         align-items: baseline;
     }
     @media screen and (min-width: 1200px){
         margin-left: 93px;
@@ -232,6 +234,7 @@
 
     @media screen and (min-width: 1200px){
         width: 358px;
+    
         
     }
     

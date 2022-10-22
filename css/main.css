@@ -775,21 +775,9 @@ a {
   border-radius: 4px;
 }
 
-@media screen and (min-width: 1200px) {
-  .footer-link {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: baseline;
-        -ms-flex-align: baseline;
-            align-items: baseline;
-  }
-}
-
 .footer {
   background-color: var(--background-footer-color);
   width: 480px;
-  padding-top: 60px;
   padding-left: 15px;
   padding-right: 15px;
   padding-bottom: 60px;
@@ -802,7 +790,39 @@ a {
 @media screen and (min-width: 1200px) {
   .footer {
     width: 1200px;
-    padding-left: 0px;
+    padding-left: 15px;
+  }
+}
+
+.footer-link {
+  padding-top: 60px;
+}
+@media screen and (min-width: 768px) {
+  .footer-link {
+    padding-left: 61px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer-link {
+    padding-top: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    padding-left: 15px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footer-tablet {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
   }
 }
 
@@ -826,13 +846,9 @@ a {
   font-family: Raleway, sans-serif;
   margin-bottom: 20px;
 }
-@media screen and (min-width: 768px) {
-  .logo_foot {
-    text-align: left;
-  }
-}
 @media screen and (min-width: 1200px) {
   .logo_foot {
+    text-align: left;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -874,6 +890,11 @@ a {
 }
 
 /* social network */
+@media screen and (min-width: 768px) {
+  .social_footer {
+    margin-left: 165px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .social_footer {
     margin-left: 70px;
@@ -900,6 +921,7 @@ a {
 }
 @media screen and (min-width: 1200px) {
   .social_title {
+    text-align: left;
     display: inline-block;
   }
 }
@@ -955,6 +977,13 @@ a {
 /* mailing footer */
 .mailing_list {
   text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .mailing_list {
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+  }
 }
 @media screen and (min-width: 1200px) {
   .mailing_list {
@@ -1506,8 +1535,13 @@ a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  background-color: #FFFFFF;
   min-height: 40px;
   min-width: 40px;
   border-radius: 4px;
-  border: 1px solid tomato;
+  border: 1px solid transparent;
+}
+.tongle-close:hover,
+.tongle-close:focus {
+  fill: #2196F3;
 }/*# sourceMappingURL=main.css.map */

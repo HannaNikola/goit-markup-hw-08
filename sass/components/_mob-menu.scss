@@ -9,15 +9,16 @@
 
  @media screen and (min-width: 768px) {
      width: 768px;
+     display: none;
 
  }
 
- .menu{
-        @media screen and (min-width: 768px) {
-            width: 768px;
-            display: none;
-        }
- }
+//  .menu{
+//         @media screen and (min-width: 768px) {
+//             width: 768px;
+//             display: none;
+//         }
+//  }
 
 }
  
@@ -79,7 +80,8 @@ min-height: 40px;
 min-width: 40px;
 border-radius: 4px;
 border: 1px solid tomato;
+
 @media screen and (min-width: 768px) {
-        display: none;
+        // display: none;
     }
 }

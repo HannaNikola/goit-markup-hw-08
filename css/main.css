@@ -727,6 +727,12 @@ a {
           align-items: center;
   gap: 30px;
 }
+@media screen and (min-width: 1200px) {
+  .clients {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+}
 .clients_item {
   width: 210px;
   height: 92px;
@@ -1476,7 +1482,7 @@ a {
   background-color: #FFFFFF;
 }
 
-.menu-ontainer .is-open {
+.menu-ontainer .is-open-menu {
   -webkit-transform: translateX(0);
           transform: translateX(0);
 }

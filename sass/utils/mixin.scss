@@ -27,7 +27,9 @@
     
 }
 @mixin retina {
-@media screen and (min-device-pixel-ratio: 2) {
+@media screen and (min-device-pixel-ratio: 2) ,
+(min-device-pixel-ration: 192dpi),
+(min-device-pixel-ration: 2dppx) {
         @content;
     }
     

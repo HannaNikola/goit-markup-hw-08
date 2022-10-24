@@ -1,29 +1,7 @@
-.menu-container {
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
-@media screen and (min-width: 480px) {
-     width: 480px;
- }
 
- @media screen and (min-width: 768px) {
-     width: 768px;
-     display: none;
-
- }
-
-//  .menu{
-//         @media screen and (min-width: 768px) {
-//             width: 768px;
-//             display: none;
-//         }
-//  }
-
-}
- 
  .menu-container {
     position: fixed;
+    padding: 15px;
     top: 0;
     left: 0;
     width: 100vw;
@@ -35,10 +13,47 @@
      height: 796px;
     background-color:#FFFFFF;
 
+    @media screen and (min-width: 768px) {
+               width: 768px;
+              display: none;}
+
 }
 
-.menu-ontainer .is-open-menu {
+.menu-container.is-open-menu {
     transform: translateX(0);
+}
+.menu-toggle {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0;
+    background-color: #FFFFFF;
+    min-height: 40px;
+    min-width: 40px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+
+    @media screen and (min-width: 768px) {
+         display: none;
+    }
+}
+
+.mobail-nav {
+    margin-top: 48px;
+    margin-bottom: 32px;
+}
+.mobail-contact {
+    margin-bottom: 32px;
+}
+.mobile-menu-contact {
+margin-bottom: 64px;
+margin-top: 302px;
+}
+.mobail-social {
+display: inline-block;
+margin-left: 20px;
+    
 }
  
 .mobail-link {
@@ -50,6 +65,11 @@
         color: var(#2196F3);
 
      }
+}
+.current {
+    color: #2196F3;
+    border-bottom: 4px solid #2196F3;
+
 }
 
 .mobail-phone {
@@ -68,26 +88,7 @@ color: #2196F3;
 .icon-menu-open {
     fill: #212121;
 }
-.icon-close-menu {
-    fill: #212121;
-}
-.menu-toggle {
-cursor: pointer;
-display: flex;
-align-items: center;
-justify-content: center;
-background-color: #FFFFFF;
-min-height: 40px;
-min-width: 40px;
-border-radius: 4px;
-border: 1px solid transparent;
-
-@media screen and (min-width: 768px) {
-        // display: none;
-    }
-}
-.tongle-close:hover,
-.tongle-close:focus {
+.icon-close-menu:hover,
+.icon-close-menu:focus {
     fill: #2196F3;
-
 }

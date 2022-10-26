@@ -1,11 +1,12 @@
 .page-header {
     background-color: var(--color-wite-transporet);
     border-bottom: 1px solid #ECECEC;
+    
 }
 .main-container{
     padding-left: 15px;
     padding-right: 15px;
-     
+    margin: 0 auto;
       
     @media screen and (min-width: 480px) {
             width: 480px;

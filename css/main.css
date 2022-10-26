@@ -66,6 +66,7 @@ a {
   width: 100%;
   padding: 0 15px;
   margin: 0 auto;
+  margin-left: 0 auto;
 }
 @media screen and (min-width: 480px) {
   .container {
@@ -91,6 +92,7 @@ a {
 .main-container {
   padding-left: 15px;
   padding-right: 15px;
+  margin: 0 auto;
 }
 @media screen and (min-width: 480px) {
   .main-container {
@@ -353,6 +355,7 @@ a {
   padding-top: 118px;
   padding-bottom: 118px;
   max-width: 1600px;
+  margin: 0 auto;
 }
 @media screen and (min-device-pixel-ratio: 2), (min-device-pixel-ration: 192dpi), (min-device-pixel-ration: 2dppx) {
   .hero {
@@ -433,6 +436,7 @@ a {
   padding-right: 15px;
   padding-top: 60px;
   padding-bottom: 60px;
+  margin: 0 auto;
 }
 @media screen and (min-width: 768px) {
   .section-about {
@@ -560,6 +564,7 @@ a {
 }
 
 .section-prodgect {
+  margin: 0 auto;
   width: 480px;
   display: none;
 }
@@ -631,6 +636,7 @@ a {
 /* employee list */
 .section-employees {
   width: 480px;
+  margin: 0 auto;
   padding-top: 60px;
   padding-bottom: 60px;
   padding-left: 15px;
@@ -762,6 +768,7 @@ a {
 
 .section-clients {
   width: 480px;
+  margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 60px;
@@ -851,6 +858,7 @@ a {
 .footer {
   background-color: var(--background-footer-color);
   width: 480px;
+  margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
   padding-bottom: 60px;

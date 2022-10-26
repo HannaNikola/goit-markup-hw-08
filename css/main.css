@@ -1551,7 +1551,7 @@ a {
   }
 }
 
-.menu-container.is-open-menu {
+.menu-container.is-open {
   -webkit-transform: translateX(0);
           transform: translateX(0);
 }

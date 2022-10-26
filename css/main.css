@@ -91,6 +91,8 @@ a {
 .main-container {
   padding-left: 15px;
   padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 @media screen and (min-width: 480px) {
   .main-container {
@@ -307,6 +309,7 @@ a {
 }
 
 .conteiner-hero {
+  margin: 0 auto;
   width: 100%;
   padding: 0 15px;
   width: 480px;
@@ -332,6 +335,7 @@ a {
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/header-mobail.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  margin: 0 auto;
   text-align: center;
   padding-top: 118px;
   padding-bottom: 118px;
@@ -416,6 +420,7 @@ a {
   padding-right: 15px;
   padding-top: 60px;
   padding-bottom: 60px;
+  margin: 0 auto;
 }
 @media screen and (min-width: 768px) {
   .section-about {
@@ -545,6 +550,7 @@ a {
 .section-prodgect {
   width: 480px;
   display: none;
+  margin: 0 auto;
 }
 @media screen and (min-width: 768px) {
   .section-prodgect {
@@ -618,6 +624,7 @@ a {
   padding-bottom: 60px;
   padding-left: 15px;
   padding-right: 15px;
+  margin: 0 auto;
   background-color: var(--background-second-color);
 }
 @media screen and (min-width: 768px) {
@@ -749,6 +756,7 @@ a {
   padding-right: 15px;
   padding-top: 60px;
   padding-bottom: 60px;
+  margin: 0 auto;
 }
 @media screen and (min-width: 768px) {
   .section-clients {
@@ -837,6 +845,7 @@ a {
   padding-left: 15px;
   padding-right: 15px;
   padding-bottom: 60px;
+  margin: 0 auto;
 }
 @media screen and (min-width: 768px) {
   .footer {

@@ -226,14 +226,28 @@ a {
 }
 
 .contact_item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .contact_nav {
   display: block;
   margin-left: auto;
+}
+@media screen and (min-width: 768px) {
+  .contact_nav {
+    display: block;
+    margin-left: auto;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .contact_nav {
+    margin-left: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 .contact_nav.contact_item:hover, .contact_nav .contact_item:focus {
   color: var(--accent-text);
@@ -245,9 +259,7 @@ a {
 }
 @media screen and (min-width: 768px) {
   .contact_nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    display: block;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     margin-right: 0;
@@ -275,11 +287,7 @@ a {
 }
 
 .contact_list .contact_item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   margin-right: 0;
-  margin-bottom: 10px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.2;
@@ -289,9 +297,19 @@ a {
 }
 @media screen and (min-width: 1200px) {
   .contact_list .contact_item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     padding-top: 32px;
     padding-bottom: 32px;
     margin-bottom: 0px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .contact_list {
+    margin-bottom: 10px;
+    margin-right: 0;
   }
 }
 
@@ -1525,7 +1543,7 @@ a {
 
 .menu-container {
   position: fixed;
-  padding: 15px;
+  padding: 48px 15px;
   top: 0;
   right: 0;
   left: 0;
@@ -1555,6 +1573,9 @@ a {
 }
 
 .menu-toggle {
+  position: absolute;
+  bottom: 92%;
+  left: 80%;
   cursor: pointer;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1579,22 +1600,32 @@ a {
 }
 
 .mobail-nav {
-  margin-top: 48px;
   margin-bottom: 32px;
+}
+.mobail-nav:last-of-type {
+  margin-bottom: 0px;
 }
 
 .mobail-contact {
   margin-bottom: 32px;
 }
+.mobail-contact:last-of-type {
+  margin-bottom: 0px;
+}
 
 .mobile-menu-contact {
-  margin-bottom: 64px;
-  margin-top: 302px;
+  margin-top: 230px;
 }
 
 .mobail-social {
   display: inline-block;
   margin-left: 20px;
+  margin-top: 54px;
+  padding-right: 10px;
+  border-right: 1px solid rgba(33, 33, 33, 0.2);
+}
+.mobail-social:first-of-type {
+  margin-left: 0px;
 }
 
 .mobail-link {
@@ -1610,7 +1641,7 @@ a {
 
 .current {
   color: #2196F3;
-  border-bottom: 4px solid #2196F3;
+  border-bottom: 2px solid #2196F3;
 }
 
 .mobail-phone {

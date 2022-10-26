@@ -232,9 +232,7 @@ a {
 }
 
 .contact_nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
   margin-left: auto;
 }
 .contact_nav.contact_item:hover, .contact_nav .contact_item:focus {

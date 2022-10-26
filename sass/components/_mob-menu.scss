@@ -3,7 +3,8 @@
     position: fixed;
     padding: 15px;
     top: 0;
-    left: 0;
+    right: 0;
+    // left: 0;
     width: 100vw;
     height: 100vh;
     z-index: 999 ;
@@ -26,7 +27,7 @@
     cursor: pointer;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     margin-left: 0;
     background-color: #FFFFFF;
     min-height: 40px;

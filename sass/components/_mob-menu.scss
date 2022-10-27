@@ -24,7 +24,9 @@
     transform: translateX(0);
 }
 .menu-toggle {
-   position: absolute;
+    display: flex;
+    margin-left: auto;
+  position: absolute;
  bottom: 92%;
  left: 80%;
     cursor: pointer;

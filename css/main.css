@@ -616,16 +616,10 @@ a {
 
 /* employee list */
 .section-employees {
-  width: 480px;
   margin: 0 auto;
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: var(--background-second-color);
-}
-@media screen and (min-width: 768px) {
-  .section-employees {
-    width: 768px;
-  }
 }
 @media screen and (min-width: 1200px) {
   .section-employees {

@@ -400,12 +400,18 @@ a {
   text-align: center;
   text-transform: uppercase;
 }
+@media screen and (min-width: 768px) {
+  .hero_title {
+    max-width: 360px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .hero_title {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.4;
     letter-spacing: 0.06em;
+    max-width: 696px;
   }
 }
 
@@ -548,6 +554,7 @@ a {
     -ms-flex-preferred-size: calc(50% - 30px);
         flex-basis: calc(50% - 30px);
     gap: 30px;
+    margin-bottom: 0px;
   }
 }
 @media screen and (min-width: 1200px) {

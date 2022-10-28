@@ -306,7 +306,6 @@ a {
     display: flex;
     padding-top: 32px;
     padding-bottom: 32px;
-    margin-bottom: 0px;
   }
 }
 
@@ -324,6 +323,10 @@ a {
 
 .contact_nav .contact_item.current {
   color: var(--accent-text);
+}
+
+.contact_list {
+  margin-bottom: 0px;
 }
 
 .conteiner-hero {
@@ -916,6 +919,9 @@ a {
     -webkit-box-align: baseline;
         -ms-flex-align: baseline;
             align-items: baseline;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 
@@ -992,6 +998,7 @@ a {
 @media screen and (min-width: 768px) {
   .social_footer {
     margin-left: 165px;
+    margin-top: 0px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1014,7 +1021,6 @@ a {
 @media screen and (min-width: 768px) {
   .social_title {
     display: inline-block;
-    margin-top: 65px;
   }
 }
 @media screen and (min-width: 1200px) {

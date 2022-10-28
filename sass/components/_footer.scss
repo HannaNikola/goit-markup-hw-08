@@ -3,8 +3,9 @@
     background-color: var(--background-footer-color);
     width: 480px;
     margin: 0 auto;
-     padding-bottom: 60px;
+    padding-bottom: 60px;
     padding-top: 60px;
+    padding-left: 15px;
     
 
     @media screen and (min-width: 768px){
@@ -13,19 +14,16 @@
          @media screen and (min-width: 1200px){
         width: 1200px;
         padding-left: 15px;
+        padding-right: 15px;
          }
 }
 
 .footer-link {
-    @media screen and (min-width: 768px){
-        padding-left: 61px;
-
-    }
     @media screen and (min-width: 1200px) {
         padding-top: 0px;
         display: flex;
         align-items: baseline;
-        padding-left: 15px;
+        
     }
 }
 
@@ -250,7 +248,7 @@
     width: 200px;
     height: 50px;
     padding: 10px 28px;
-    padding-right: 62px;
+     padding-right: 62px;
     cursor: pointer;
     background-color: var(--accent-text);
     color: var(--white-color);

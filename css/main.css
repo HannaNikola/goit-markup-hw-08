@@ -881,6 +881,7 @@ a {
   margin: 0 auto;
   padding-bottom: 60px;
   padding-top: 60px;
+  padding-left: 15px;
 }
 @media screen and (min-width: 768px) {
   .footer {
@@ -891,14 +892,10 @@ a {
   .footer {
     width: 1200px;
     padding-left: 15px;
+    padding-right: 15px;
   }
 }
 
-@media screen and (min-width: 768px) {
-  .footer-link {
-    padding-left: 61px;
-  }
-}
 @media screen and (min-width: 1200px) {
   .footer-link {
     padding-top: 0px;
@@ -908,7 +905,6 @@ a {
     -webkit-box-align: baseline;
         -ms-flex-align: baseline;
             align-items: baseline;
-    padding-left: 15px;
   }
 }
 

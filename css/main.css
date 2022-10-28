@@ -329,8 +329,10 @@ a {
   color: var(--accent-text);
 }
 
-.contact_list:last-child {
-  margin-bottom: 0px;
+@media screen and (min-width: 768px) {
+  .contact_list:last-child {
+    margin-bottom: 0px;
+  }
 }
 
 @media screen and (min-width: 480px) {

@@ -1,8 +1,6 @@
 .section-clients {
     width: 480px;
     margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
     padding-top: 60px;
     padding-bottom: 60px;
     
@@ -77,4 +75,7 @@
         }
 }
 
-
+.clients_link {
+    @media screen and (min-width: 768px){
+    width: 226px;} 
+}

@@ -64,6 +64,8 @@ a {
 
 .conteiner {
   width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
   padding: 0 15px;
   margin: 0 auto;
   margin-left: 0 auto;
@@ -783,8 +785,6 @@ a {
 .section-clients {
   width: 480px;
   margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -867,6 +867,12 @@ a {
 .clients_link:hover, .clients_link:focus {
   border: 1px solid #2196F3;
   border-radius: 4px;
+}
+
+@media screen and (min-width: 768px) {
+  .clients_link {
+    width: 226px;
+  }
 }
 
 .footer {

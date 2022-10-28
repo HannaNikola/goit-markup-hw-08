@@ -196,7 +196,10 @@ align-items: center;
 .contact_list{
 @media screen and (min-width: 768px) {
     margin-bottom: 10px;
-    margin-right: 0; }
+    margin-right: 0px; }
+        @media screen and (min-width: 1200px){
+     margin-bottom: 0px;
+}
 }
 .contact_nav .contact_item:hover,
 .contact_nav .contact_item:focus {
@@ -206,6 +209,7 @@ align-items: center;
 .contact_nav .contact_item.current {
     color: var(--accent-text);
 }
-.contact_list {
-margin-bottom: 0px;
-}
+.contact_list:last-child {
+    margin-bottom: 0px;
+} 
+

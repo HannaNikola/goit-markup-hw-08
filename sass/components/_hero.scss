@@ -1,9 +1,9 @@
 
  .conteiner-hero {
-   margin: 0 auto;
-  width: 100%;
-   padding: 0 15px;
-   width: 480px;
+//   margin: 0 auto;
+//    width: 100%;
+//    width: 480px;
+
     
         @media screen and (min-width: 480px) {
            width: 480px;
@@ -19,6 +19,8 @@
 }
 
 .hero {
+    
+    width: 100%;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/header-mobail.jpg);
     @include retina {
             background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/header-mobail-2x.jpg);
@@ -29,7 +31,7 @@
     padding-top: 118px;
     padding-bottom: 118px;
     max-width: 1600px;
-        margin: 0 auto;
+     margin: 0 auto;
     
 
     @media screen and (min-width: 768px){

@@ -872,6 +872,11 @@ a {
     width: 226px;
   }
 }
+@media screen and (min-width: 768px) {
+  .clients_link {
+    width: 170px;
+  }
+}
 
 .footer {
   background-color: var(--background-footer-color);

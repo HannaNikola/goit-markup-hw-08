@@ -432,6 +432,7 @@ a {
 
 .section-about {
   width: 480px;
+  margin: 0 auto;
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -643,8 +644,6 @@ a {
   margin: 0 auto;
   padding-top: 60px;
   padding-bottom: 60px;
-  padding-left: 15px;
-  padding-right: 15px;
   background-color: var(--background-second-color);
 }
 @media screen and (min-width: 768px) {
@@ -696,6 +695,10 @@ a {
     margin-bottom: 0px;
     width: 270px;
   }
+}
+
+.employees-item:last-child {
+  margin-bottom: 0px;
 }
 
 .item-employees {

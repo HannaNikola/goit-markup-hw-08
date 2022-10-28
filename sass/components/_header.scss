@@ -117,6 +117,7 @@ align-items: center;
 .contact_nav {
      @media screen and (min-width: 768px){
         display: block;
+        flex-wrap: wrap;
         margin-right: auto;
     }
 
@@ -137,13 +138,14 @@ align-items: center;
         
         @media screen and (min-width: 768px) {
             display: block;
-              flex-wrap: wrap;
-             margin-right: 0;
+              
+            
              
          }
       @media screen and (min-width: 1200px){
         flex-wrap: nowrap;
         display: flex;
+        
       }
         
 }
@@ -171,16 +173,20 @@ align-items: center;
         padding-top: 32px;
         padding-bottom: 32px;
         
+        
     }
 }
 
 .contact_list{
 @media screen and (min-width: 768px) {
     margin-bottom: 10px;
-    margin-right: 0px; }
+    // margin-right: 0px; 
+    margin-right: 0 auto;}
 
      @media screen and (min-width: 1200px){
      margin-bottom: 0px;
+    margin-right: 0 auto;
+     
      
 }
 }

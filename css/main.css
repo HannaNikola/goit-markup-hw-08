@@ -1608,9 +1608,6 @@ a {
   display: -ms-flexbox;
   display: flex;
   margin-left: auto;
-  position: absolute;
-  bottom: 92%;
-  left: 80%;
   cursor: pointer;
   display: flex;
   -webkit-box-align: center;

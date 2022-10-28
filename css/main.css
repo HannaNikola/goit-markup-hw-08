@@ -432,11 +432,8 @@ a {
 
 .section-about {
   width: 480px;
-  padding-left: 15px;
-  padding-right: 15px;
   padding-top: 60px;
   padding-bottom: 60px;
-  margin: 0 auto;
 }
 @media screen and (min-width: 768px) {
   .section-about {
@@ -528,7 +525,6 @@ a {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
-  margin-bottom: 30px;
 }
 @media screen and (min-width: 768px) {
   .feature .text-feature {
@@ -543,6 +539,9 @@ a {
   }
 }
 
+.feauter-item {
+  margin-bottom: 30px;
+}
 @media screen and (min-width: 768px) {
   .feauter-item {
     -ms-flex-preferred-size: calc(50% - 30px);
@@ -554,7 +553,12 @@ a {
   .feauter-item {
     -ms-flex-preferred-size: calc(25% - 30px);
         flex-basis: calc(25% - 30px);
+    margin-bottom: 0px;
   }
+}
+
+.feauter-item:last-child {
+  margin-bottom: 0px;
 }
 
 @media screen and (min-width: 1200px) {

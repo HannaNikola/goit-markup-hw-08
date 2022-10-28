@@ -213,22 +213,18 @@ a {
           align-items: center;
 }
 
-.contact_nav {
-  display: block;
-  margin-left: auto;
-}
 @media screen and (min-width: 768px) {
   .contact_nav {
     display: block;
-    margin-left: auto;
+    margin-right: auto;
   }
 }
 @media screen and (min-width: 1200px) {
   .contact_nav {
-    margin-left: auto;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    margin-right: auto;
   }
 }
 .contact_nav.contact_item:hover, .contact_nav .contact_item:focus {
@@ -315,7 +311,6 @@ a {
 }
 
 .hero {
-  width: 100%;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/header-mobail.jpg);
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/header-mobail.jpg);
   background-repeat: no-repeat;
@@ -1548,17 +1543,22 @@ a {
   }
 }
 
+.main-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .menu-container.is-open {
   -webkit-transform: translateX(0);
           transform: translateX(0);
 }
 
 .menu-toggle {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   margin-left: auto;
   cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -1566,7 +1566,7 @@ a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-left: 0;
+  margin-right: 0px;
   background-color: #FFFFFF;
   min-height: 40px;
   min-width: 40px;

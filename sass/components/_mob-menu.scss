@@ -14,7 +14,7 @@
     height: 796px;
     background-color:#FFFFFF;
 
-    @media screen and (min-width: 500px) {
+    @media screen and (min-width: 768px) {
                width: 768px;
               display: none;}
 
@@ -23,6 +23,8 @@
 display: flex;
 
 }
+
+
 .menu-container.is-open {
     transform: translateX(0);
 }

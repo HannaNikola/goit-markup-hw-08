@@ -27,8 +27,11 @@ display: flex;
 
 .menu-container.is-open {
     transform: translateX(0);
+    
 }
-
+.modal-open {
+    overflow: hidden;
+}
 .menu-toggle {
     margin-left: auto;
     cursor: pointer;

@@ -121,16 +121,16 @@ align-items: center;
     display: none;}
 
      @media screen and (min-width: 768px){
-        // display: block;
         flex-wrap: wrap;
         display: block;
-        margin-right: auto;
+        // margin-right: auto;
+
     }
 
     @media screen and (min-width: 1200px){
         flex-wrap: nowrap;
         display: flex;
-        margin-right: auto;
+        // margin-right: auto;
         
     }
      
